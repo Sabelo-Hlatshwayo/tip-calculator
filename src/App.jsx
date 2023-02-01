@@ -1,7 +1,11 @@
 import React from "react";
 
 function App() {
-    return <div>THE TIP CALCULATOR</div>;
+    return (
+        <div className="container">
+            <div>THE TIP CALCULATOR</div>
+        </div>
+    );
 }
 
 export default App;

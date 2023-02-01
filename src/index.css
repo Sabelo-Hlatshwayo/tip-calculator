@@ -17,4 +17,13 @@ body {
     line-height: 1;
     background-color: hsl(185, 41%, 84%);
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: solid red;
+    max-width: 114rem;
+    margin: 0 auto;
 }
