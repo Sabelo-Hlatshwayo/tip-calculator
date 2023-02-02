@@ -23,7 +23,69 @@ body {
 }
 
 .container {
-    border: solid red;
+    /* border: solid red; */
     max-width: 114rem;
     margin: 0 auto;
+    /* border: solid red; */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.calculator {
+    background-color: hsl(0, 0%, 100%);
+    padding: 3.2rem;
+    border-radius: 1.6rem;
+}
+
+.calculator__input-box {
+    /* border: solid red; */
+}
+
+.calculator__bill {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: hsl(183, 100%, 15%);
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.8rem;
+    display: block;
+}
+
+.calculator__bill-input {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: hsl(183, 100%, 15%);
+    text-align: right;
+    padding: 16px;
+    background-color: hsl(185, 41%, 84%);
+    border: none;
+    border-radius: 0.8rem;
+    display: block;
+    transition: all 0.3s;
+}
+
+.calculator__bill-input::placeholder {
+    color: hsl(184, 14%, 56%);
+}
+
+.calculator__bill-input:focus {
+    /* padding: 16px 32px;
+  background-color: hsl(185, 41%, 84%);
+  border: none;
+  transition: all 0.3s; */
+    /* border: none; */
+    outline: none;
+}
+
+.container div:first-child {
+    /* border: solid blue; */
+}
+
+.container div:last-child {
+    /* border: solid green; */
 }
