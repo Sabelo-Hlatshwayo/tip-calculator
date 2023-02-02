@@ -47,7 +47,8 @@ body {
 }
 
 .calculator__bill,
-.calculator__tip-percent {
+.calculator__tip-percent,
+.calculator__people {
     font-size: 1.6rem;
     font-weight: 700;
     color: hsl(183, 100%, 15%);
@@ -57,7 +58,8 @@ body {
     display: block;
 }
 
-.calculator__bill-input {
+.calculator__bill-input,
+.calculator__people-input {
     font-size: 2.4rem;
     font-weight: 700;
     color: hsl(183, 100%, 15%);
@@ -71,11 +73,13 @@ body {
     transition: all 0.3s;
 }
 
-.calculator__bill-input::placeholder {
+.calculator__bill-input::placeholder,
+.calculator__people-input::placeholder {
     color: hsl(184, 14%, 56%);
 }
 
-.calculator__bill-input:focus {
+.calculator__bill-input:focus,
+.calculator__people-input:focus {
     outline: none;
     box-shadow: 0 0 0 0.2rem hsl(172, 67%, 45%);
 }

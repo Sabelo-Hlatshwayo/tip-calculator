@@ -9,6 +9,19 @@ function App() {
                 <form className="calculator__input-box">
                     <InitialBill />
                     <TipPercentage />
+
+                    <label
+                        className="calculator__people"
+                        htmlFor="people"
+                    >
+                        number of people
+                    </label>
+                    <input
+                        type="text"
+                        className="calculator__people-input"
+                        placeholder="0"
+                        id="people"
+                    />
                 </form>
                 <div className="calculator__output-box">SECOND</div>
             </div>
