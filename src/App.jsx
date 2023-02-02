@@ -1,6 +1,7 @@
 import React from "react";
 import InitialBill from "./components/InitialBill";
 import TipPercentage from "./components/TipPercentage";
+import NumPeople from "./components/NumPeople";
 
 function App() {
     return (
@@ -9,19 +10,7 @@ function App() {
                 <form className="calculator__input-box">
                     <InitialBill />
                     <TipPercentage />
-
-                    <label
-                        className="calculator__people"
-                        htmlFor="people"
-                    >
-                        number of people
-                    </label>
-                    <input
-                        type="text"
-                        className="calculator__people-input"
-                        placeholder="0"
-                        id="people"
-                    />
+                    <NumPeople />
                 </form>
                 <div className="calculator__output-box">SECOND</div>
             </div>

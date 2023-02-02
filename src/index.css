@@ -43,7 +43,7 @@ body {
 .calculator__input-box {
     display: flex;
     flex-direction: column;
-    gap: 2.4rem;
+    gap: 3.2rem;
 }
 
 .calculator__bill,
