@@ -41,7 +41,9 @@ body {
 }
 
 .calculator__input-box {
-    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
 }
 
 .calculator__bill,
