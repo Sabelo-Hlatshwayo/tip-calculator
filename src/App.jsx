@@ -1,22 +1,12 @@
 import React from "react";
+import InitialBill from "./components/InitialBill";
 
 function App() {
     return (
         <div className="container">
             <div className="grid calculator">
                 <form className="calculator__input-box">
-                    <label
-                        className="calculator__bill"
-                        htmlFor="bill"
-                    >
-                        bill
-                    </label>
-                    <input
-                        type="text"
-                        className="calculator__bill-input"
-                        placeholder="0"
-                        id="bill"
-                    />
+                    <InitialBill />
                 </form>
                 <div className="calculator__output-box">SECOND</div>
             </div>
