@@ -3,6 +3,7 @@ import InitialBill from "./components/InitialBill";
 import TipPercentage from "./components/TipPercentage";
 import NumPeople from "./components/NumPeople";
 import Output from "./components/Output";
+import Reset from "./components/Reset";
 
 function App() {
     return (
@@ -23,7 +24,7 @@ function App() {
                         amount="0.00"
                     />
                     <div className="calculator__reset-box">
-                        <button className="btnReset">reset</button>
+                        <Reset />
                     </div>
                 </div>
             </div>
