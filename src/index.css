@@ -105,7 +105,7 @@ body {
 
 .calculator__buttons {
     background-color: hsl(183, 100%, 15%);
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     cursor: pointer;
 }
 
@@ -126,10 +126,47 @@ body {
     text-align: center;
 }
 
-.container div:first-child {
+.calculator__output-box {
+    align-self: stretch;
+    border-radius: 1.6rem;
+    background-color: hsl(183, 100%, 15%);
+    padding: 3.2rem;
+}
+
+.calculator__output-box-1 {
+    /* border: solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calculator__tip-amount {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+}
+
+.calculator__per-person {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: hsl(184, 14%, 56%);
+    display: block;
+}
+
+.calculator__amount {
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: hsl(172, 67%, 45%);
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
     /* border: solid blue; */
 }
 
-.container div:last-child {
-    /* border: solid green; */
+.calculator__amount span:first-child {
+    font-size: 2.4rem;
 }
