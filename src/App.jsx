@@ -22,6 +22,9 @@ function App() {
                         title="total"
                         amount="0.00"
                     />
+                    <div className="calculator__reset-box">
+                        <button className="btnReset">reset</button>
+                    </div>
                 </div>
             </div>
         </div>

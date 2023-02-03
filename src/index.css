@@ -134,6 +134,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 4.8rem;
+    position: relative;
 }
 
 .calculator__output-box-1 {
@@ -172,4 +173,28 @@ body {
 
 .calculator__amount span:first-child {
     font-size: 2.4rem;
+}
+
+.calculator__reset-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 260%);
+    width: 100%;
+}
+
+.btnReset {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: hsl(183, 100%, 15%);
+    text-transform: uppercase;
+    border: none;
+    padding: 1.2rem 3.2rem;
+    border-radius: 0.4rem;
+    background-color: hsl(172, 67%, 45%);
+    cursor: pointer;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
 }
