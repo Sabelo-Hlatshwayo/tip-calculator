@@ -131,6 +131,9 @@ body {
     border-radius: 1.6rem;
     background-color: hsl(183, 100%, 15%);
     padding: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
 }
 
 .calculator__output-box-1 {

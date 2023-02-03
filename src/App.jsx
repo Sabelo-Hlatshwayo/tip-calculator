@@ -18,6 +18,10 @@ function App() {
                         title="tip amount"
                         amount="0.00"
                     />
+                    <Output
+                        title="total"
+                        amount="0.00"
+                    />
                 </div>
             </div>
         </div>
