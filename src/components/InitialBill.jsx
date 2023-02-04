@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 function InitialBill() {
+    const [bill, setBill] = useState(0);
+
+    const handleBill = (e) => setBill(() => e.target.value);
+
     return (
         <div>
             <label
@@ -14,6 +18,7 @@ function InitialBill() {
                 className="calculator__bill-input"
                 placeholder="0"
                 id="bill"
+                onChange={handleBill}
             />
         </div>
     );
