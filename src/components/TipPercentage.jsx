@@ -1,19 +1,35 @@
 import React from "react";
+import BtnPercentage from "./BtnPercentage";
 
 function TipPercentage() {
     return (
         <div>
             <p className="calculator__tip-percent">select tip %</p>
             <div className="calculator__buttons-box">
-                <button className="calculator__buttons">5%</button>
-                <button className="calculator__buttons">10%</button>
-                <button className="calculator__buttons">15%</button>
-                <button className="calculator__buttons">25%</button>
-                <button className="calculator__buttons">50%</button>
-                <input
-                    type="text"
-                    placeholder="custom"
-                    className="calculator__custom"
+                <BtnPercentage
+                    percentage="5"
+                    custom={false}
+                />
+                <BtnPercentage
+                    percentage="10"
+                    custom={false}
+                />
+                <BtnPercentage
+                    percentage="15"
+                    custom={false}
+                />
+                <BtnPercentage
+                    percentage="25"
+                    custom={false}
+                />
+                <BtnPercentage
+                    percentage="50"
+                    custom={false}
+                />
+
+                <BtnPercentage
+                    percentage="0"
+                    custom={true}
                 />
             </div>
         </div>
