@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 
 function InitialBill() {
-    const [bill, setBill] = useState(0);
-
+    const [bill, setBill] = useState("");
     const handleBill = (e) => setBill(() => e.target.value);
 
     return (
@@ -19,6 +18,7 @@ function InitialBill() {
                 placeholder="0"
                 id="bill"
                 onChange={handleBill}
+                value={bill}
             />
         </div>
     );

@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 function NumPeople() {
+    const [numPeople, setNumPeople] = useState("");
+    const handleNumPeople = (e) => setNumPeople(() => e.target.value);
+
     return (
         <div>
             <label
@@ -14,6 +17,8 @@ function NumPeople() {
                 className="calculator__people-input"
                 placeholder="0"
                 id="people"
+                onChange={handleNumPeople}
+                value={numPeople}
             />
         </div>
     );
