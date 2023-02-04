@@ -107,6 +107,12 @@ body {
     background-color: hsl(183, 100%, 15%);
     color: hsl(0, 0%, 100%);
     cursor: pointer;
+    border: none;
+}
+
+.calculator__buttons:hover {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
 }
 
 .calculator__custom {
