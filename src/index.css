@@ -79,13 +79,14 @@ body {
 }
 
 .calculator__bill-input:focus,
-.calculator__people-input:focus {
+.calculator__people-input:focus,
+.calculator__custom:focus {
     outline: none;
     box-shadow: 0 0 0 0.2rem hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
 }
 
 .calculator__buttons-box {
-    /* border: solid red; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
@@ -120,10 +121,6 @@ body {
     background-color: hsl(185, 41%, 84%);
     text-align: right;
     padding: 0.8rem;
-}
-
-.calculator__custom:focus {
-    outline: none;
 }
 
 .calculator__custom::placeholder {
