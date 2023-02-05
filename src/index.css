@@ -141,7 +141,6 @@ body {
 }
 
 .calculator__output-box-1 {
-    /* border: solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -171,7 +170,6 @@ body {
     display: flex;
     align-items: center;
     gap: 0.2rem;
-    /* border: solid blue; */
 }
 
 .calculator__amount span:first-child {
@@ -200,4 +198,9 @@ body {
     width: 80%;
     margin-left: 10%;
     text-align: center;
+    transition: all 0.3s;
+}
+
+.btnReset:active {
+    background-color: hsl(185, 41%, 84%);
 }
